@@ -1,9 +1,15 @@
-let button = document.querySelector('#button');
-let pargrafo = document.querySelector('#paragrafo');
+// Capturar os botões e a div a ser escondida
 
+let btnEsconder = document.querySelector(".esconder")
+let btnMostrar = document.querySelector(".mostrar")
+let div = document.getElementById("minhaId")
 
-function esconder(){
-    paragrafo.classList.toggle('buttonHide')
-}
+// Criar função que esconde a div utilizando uma classe criada no CSS
+btnEsconder.addEventListener("click", function (){
+    div.classList.add("hide")
+})
 
-//  Aqui conseguimos adicionar ou esconder uma classe do css, através do onclick no arquivo do HTML
+// Criar função que msotra a div retirando uma classe criada no CSS
+btnMostrar.addEventListener("click", function(){
+    div.classList.remove("hide")
+})

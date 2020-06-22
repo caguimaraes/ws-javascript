@@ -17,6 +17,11 @@ body {
     height: 100vh;
 }
 
+#mensagem {
+    color: #ffffff;
+}
+
+
 /* FORM */
 
 .login{

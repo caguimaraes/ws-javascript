@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+#box {
+  width: 150px;
+  height: 150px;
+  background-color: bisque;
+}
+
+#btn {
+  width: 150px; 
+  height: 50px;
+  border: none;
+  margin-top: 5px;
+  background-color: palevioletred;
+  color: white;
+}
+
+#btn p {
+  text-align: center;
+  background-color: plum;
+}
+
